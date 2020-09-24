@@ -49,7 +49,7 @@ export class Connection {
       return `wss://${window.location.hostname}/feed/`;
     }
 
-    return `ws://127.0.0.1:8000/feed`;
+    return `ws://42.51.37.113:8000/feed`;
   }
 
   private static async socket(): Promise<WebSocket> {
